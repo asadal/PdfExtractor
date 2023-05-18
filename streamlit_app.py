@@ -64,7 +64,7 @@ def app():
                             mime='text/plain'
                             )
         except Exception as e:
-                # st.error("오류가 발생했습니다. 😥")
+                st.error("오류가 발생했습니다. 😥")
                 st.error(e)
 
 if __name__ == "__main__":
