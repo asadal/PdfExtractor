@@ -1,0 +1,5 @@
+pypdf3
+streamlit
+tempfile
+pdfplumber
+tqdm
