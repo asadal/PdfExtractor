@@ -6,14 +6,6 @@ from tempfile import NamedTemporaryFile
 import pdfplumber
 from tqdm import tqdm
 
-def create_temp_dir():
-    # Create a temporary directory
-    set_temp_dir = tf.TemporaryDirectory()
-    temp_dir = set_temp_dir.name + "/"
-    # 디렉터리 접근 권한 설정
-    os.chmod(temp_dir, 0o700)
-    return temp_dir
-
 def get_page_numbers(pdf_file):
     pdfReader = PyPDF3.PdfFileReader(pdf_file)
     pages = pdfReader.numPages
