@@ -10,4 +10,4 @@
 1. Upload a PDF file and it will extract the text.
 2. You can download the extracted text as a .txt file.
 
-[Demo[\](https://asadal-pdfextractor.streamlit.io)
+[Demo](https://asadal-pdfextractor.streamlit.io)
