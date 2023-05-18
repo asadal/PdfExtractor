@@ -14,7 +14,7 @@
 
 ### Installation
 
-1. git clone https://github.com/asadal/pdf-extractor.git
+1. git clone https://github.com/asadal/PdfExtractor.git
 2. cd pdf-extractor
 3. pip install -r requirements.txt
 4. streamlit run streamlit_app.py
