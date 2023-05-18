@@ -10,4 +10,13 @@
 1. Upload a PDF file and it will extract the text.
 2. You can download the extracted text as a .txt file.
 
+------
+
+### Installation
+
+1. git clone https://github.com/asadal/pdf-extractor.git
+2. cd pdf-extractor
+3. pip install -r requirements.txt
+4. streamlit run streamlit_app.py
+
 [Demo](https://asadal-pdfextractor.streamlit.io)
