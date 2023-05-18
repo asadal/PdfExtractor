@@ -19,4 +19,4 @@
 3. pip install -r requirements.txt
 4. streamlit run streamlit_app.py
 
-[Demo](https://asadal-pdfextractor.streamlit.io)
+[Demo](https://asadal-pdf.streamlit.io)
