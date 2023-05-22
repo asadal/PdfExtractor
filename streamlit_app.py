@@ -50,7 +50,7 @@ def app():
             # 추출된 텍스트를 txt 파일로 다운로드
             st.header("텍스트 다운로드")
             st.download_button(
-                            label="📥 Download Timeline Script ⏱",
+                            label="📥 Download Script 🗒️",
                             data=final_txt,
                             file_name='extracted_text.txt',
                             mime='text/plain'
