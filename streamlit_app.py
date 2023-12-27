@@ -15,12 +15,12 @@ def app():
     # Set page title and icon
     st.set_page_config(
         page_title="PDF Extractor",
-        page_icon="https://img.uxwing.com/wp-content/themes/uxwing/download/file-folder-type/download-pdf-icon.svg"
+        page_icon="https://cdn-icons-png.flaticon.com/512/80/80942.png"
     )
 
     # Featured image
     st.image(
-        "https://img.uxwing.com/wp-content/themes/uxwing/download/file-folder-type/download-pdf-icon.svg",
+        "https://cdn-icons-png.flaticon.com/512/80/80942.png",
         width=120
     )
 
